@@ -1,0 +1,1 @@
+# Generic calculator project to learn HTML, CSS, JS
