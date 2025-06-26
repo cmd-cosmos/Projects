@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
 </head>
-<body>
-    
-</body>
+  <body class="body">
+    <h1 class="title">Rock Paper Scissors</h1>
+
+    <button onclick="playGame('rock');" class="rock-btn choice-btn">
+      <img src="resources/rock.png" alt="rock-image" class="choice-icons">
+    </button>
+
+    <button onclick="playGame('paper');"class="paper-btn choice-btn">
+    <img src="resources/paper.png" alt="paper-image" class="choice-icons">
+    </button>
+
+    <button onclick="playGame('scissors');" class="scissors choice-btn">
+      <img src="resources/scissors.png" alt="scissors-image" class="choice-icons">
+    </button>
+
+	  <p class="js-result result">Result</p>
+    <br>
+    <hr>
+	  <p class="js-choice choice">
+      Choices:
+      <br> 
+      <br> 
+      You: <img src="resources/rocket.png" class="choice-icons">
+      Computer: <img src="resources/rocket.png" class="choice-icons">
+    </p>
+    <hr>
+
+    <p class="js-score score">Score:</p>
+
+	  <button class="js-reset reset-btn" onclick="
+	    score.wins=0;
+	    score.losses=0;
+	    score.ties=0;
+	    localStorage.removeItem('score');
+	    scoreUpdate();
+	    resultupdate('Result');
+	    document.querySelector('.js-choice').innerHTML = 
+      `Choices:
+      <br> 
+      <br> 
+      You: <img src='resources/rocket.png' class='choice-icons'>
+      Computer: <img src='resources/rocket.png' class='choice-icons'>`"
+	    
+      >Reset Score
+    </button>
+  </body>
 </html>
