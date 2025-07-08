@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.addButton{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+}
+
+.deleteButton{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.to-do-grid,
+.to-do-input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.to-do-input-grid{
+    margin-bottom: 10px;
+}
+
