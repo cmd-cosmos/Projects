@@ -4,4 +4,6 @@
 - Some projects are done from an academic purpose.
 - Most projects are just for personal learning and to gain exposure to AI-ML projects in the industry(in terms of scale and integration).
 
+# Project Names & Algorithm Implemented
+
 - Satellite Orbit Classification ===> Decision Tree Classifier
