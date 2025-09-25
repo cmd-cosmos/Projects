@@ -1,0 +1,4 @@
+### self driving car project to learn JS and also learn about autonomous driving
+
+reference video link:
+- https://www.youtube.com/watch?v=Rs_rAxEsAvI
